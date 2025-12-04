@@ -3,14 +3,15 @@ import "./App.css";
 // import Form from "./hello-world/form";
 // import LoginForm from "./hello-world/login-form";
 import ImpactAtGlance from "./impact-at-glance/impact-at-glance-component";
+import PromiseComponent from "./promise/promise-component";
 function App() {
   return (
     <>
     {/* <HelloWorldComponent/>
     <Form/>
-    <LoginForm/> */}
-    <ImpactAtGlance/>
-    
+    <LoginForm/> 
+    <ImpactAtGlance/> */}
+    <PromiseComponent/>
     </>
   );
 }
