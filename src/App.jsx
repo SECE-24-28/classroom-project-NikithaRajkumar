@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import SymbolOfExcellenceComponent from "./Symbol_of_excellence/Symbol-of-excellence";
 import FourOFourComponent from "./404-component/404-component";
 import UseStateComponent from "./use-case-1st/use-state-component";
+import FormComponent from "./forms/forms-component";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Routes>
         {/* <Route path="/leetcode/:id" element={<SymbolOfExcellenceComponent />} />
         <Route path="*" element={<FourOFourComponent />} /> */}
-        <Route path="/use-state-practice" element={<UseStateComponent />} />
+        <Route path="/form" element={<FormComponent/>} />
       </Routes>
     </>
   );
