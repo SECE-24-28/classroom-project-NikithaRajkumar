@@ -10,18 +10,19 @@ export const TrustedByStyle = styled.div`
   .parent {
     display: flex;
     justify-content: space-evenly;
-    // gap: 100px;
+    flex-wrap:wrap
+    gap: ${(props)=>props.gap};
   }
   .numbers {
     text-align: center;
-    font-size: 40px;
+    font-size: ${(props)=>props.numberSize};
     font-weight: 700;
-    color: gray;
+    color: ${(props)=>props.numbersColor};
   }
   .details {
     text-align: center;
-    font-size: 20px;
-    color: gray;
+    font-size: ${(props) => props.detailSize};
+    color: ${(props) => props.detailColor};
     font-weight: 500;
   }
   .child {

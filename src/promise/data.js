@@ -1,7 +1,7 @@
 import {
   faLaptopCode,
   faMobile,
-  faNetworkWired,
+  //faNetworkWired,
   faPeopleGroup,
   faRightFromBracket,
   faShieldHalved,

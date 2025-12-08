@@ -1,37 +1,24 @@
 import React from "react";
 import { TrustedByStyle } from "./trusted-by-style";
-import { faBuildingColumns } from "@fortawesome/free-solid-svg-icons";
+//import { faBuildingColumns } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const TrustedbyComponent = () => {
+const TrustedbyComponent = ({title,items}) => {
   return (
     <TrustedByStyle>
-      <h1>Trusted By</h1>
+      <h1>{title}</h1>
       <div className="parent">
-        <div className="child">
-          <FontAwesomeIcon icon={faBuildingColumns} />
+        {items.map((item,index)=>(
+          <div className="child" key={index}>
+            <span className="numbers">{item.number}</span>
+            <br/>
+            <span className="details">{item.label}</span>
+            </div>
 
-          <span className="numbers">100+</span>
-          <br></br>
-          <span className="details">Colleges</span>
+
+        ))}
         </div>
-        <div className="child">
-          <span className="numbers">150</span>
-          <br></br>
-          <span className="details">Professional Trainers</span>
-        </div>
-        <div className="child">
-          <span className="numbers">1000+</span>
-          <br></br>
-          <span>Study Materials</span>
-        </div>
-        <div className="child">
-          <span className="numbers"> 100000+</span>
-          <br></br>
-          <span className="details">Students</span>
-        </div>
-      </div>
-    </TrustedByStyle>
+        </TrustedByStyle>
   );
 };
 export default TrustedbyComponent;

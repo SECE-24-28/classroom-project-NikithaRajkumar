@@ -1,6 +1,6 @@
 // let x = 2;
 // console.log("The value x is :", x);
-let arr = [1, 2, 3, 4];
+// let arr = [1, 2, 3, 4];
 // console.log("The array is", arr);
 // console.log("The array is", arr[0]);
 let arrString = ["Sai", "ram", "sree"];
@@ -41,11 +41,11 @@ arrString.push("Eshwar");
 // };
 // console.log("The ans:", addition(10, 20));
 
-let arrObject = [
-  { name: "A", mark: 100, address: "Chennai" },
-  { name: "B", mark: 95, address: "Kovai" },
-  { name: "C", mark: 96, address: "Mumbai" },
-];
+// let arrObject = [
+//   { name: "A", mark: 100, address: "Chennai" },
+//   { name: "B", mark: 95, address: "Kovai" },
+//   { name: "C", mark: 96, address: "Mumbai" },
+// ];
 
 // for (let i = 0; i < arrObject.length; i++) {
 //   console.log("Name:", arrObject[i].name);
